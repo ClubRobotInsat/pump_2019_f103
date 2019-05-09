@@ -157,7 +157,7 @@ Wire Notes Line
 Wire Notes Line
 	5650 3450 2900 3450
 Wire Notes Line
-	2900 3450 2900 1200
+	2700 3450 2700 1200
 Wire Notes Line
 	2900 1200 5650 1200
 NoConn ~ 4550 3000
@@ -490,44 +490,44 @@ Text GLabel 8050 3600 0    50   Input ~ 0
 Buzzer
 Text GLabel 4550 2900 0    50   Input ~ 0
 Buzzer
-Text GLabel 9600 3600 2    50   Input ~ 0
+Text GLabel 9600 3700 2    50   Input ~ 0
 Tirette
 $Comp
 L power:+3.3V #PWR012
 U 1 1 5CD49077
-P 9600 3700
-F 0 "#PWR012" H 9600 3550 50  0001 C CNN
-F 1 "+3.3V" V 9615 3828 50  0000 L CNN
-F 2 "" H 9600 3700 50  0001 C CNN
-F 3 "" H 9600 3700 50  0001 C CNN
-	1    9600 3700
+P 9600 3600
+F 0 "#PWR012" H 9600 3450 50  0001 C CNN
+F 1 "+3.3V" V 9615 3728 50  0000 L CNN
+F 2 "" H 9600 3600 50  0001 C CNN
+F 3 "" H 9600 3600 50  0001 C CNN
+	1    9600 3600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR018
 U 1 1 5CD49109
-P 10650 3800
-F 0 "#PWR018" H 10650 3650 50  0001 C CNN
-F 1 "+5V" V 10665 3928 50  0000 L CNN
-F 2 "" H 10650 3800 50  0001 C CNN
-F 3 "" H 10650 3800 50  0001 C CNN
-	1    10650 3800
+P 10650 3600
+F 0 "#PWR018" H 10650 3450 50  0001 C CNN
+F 1 "+5V" V 10665 3728 50  0000 L CNN
+F 2 "" H 10650 3600 50  0001 C CNN
+F 3 "" H 10650 3600 50  0001 C CNN
+	1    10650 3600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5CD4915A
-P 10650 3700
-F 0 "#PWR017" H 10650 3450 50  0001 C CNN
-F 1 "GND" V 10655 3572 50  0000 R CNN
-F 2 "" H 10650 3700 50  0001 C CNN
-F 3 "" H 10650 3700 50  0001 C CNN
-	1    10650 3700
+P 10650 3500
+F 0 "#PWR017" H 10650 3250 50  0001 C CNN
+F 1 "GND" V 10655 3372 50  0000 R CNN
+F 2 "" H 10650 3500 50  0001 C CNN
+F 3 "" H 10650 3500 50  0001 C CNN
+	1    10650 3500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10650 3600 2    50   Input ~ 0
+Text GLabel 10650 3800 2    50   Input ~ 0
 Pompe2
-Text GLabel 10650 3500 2    50   Input ~ 0
+Text GLabel 10650 3700 2    50   Input ~ 0
 Pompe1
 Text GLabel 4550 2000 0    50   Input ~ 0
 Tirette
@@ -555,7 +555,7 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5CD49E15
 P 6600 950
 F 0 "J?" H 6706 1128 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6706 1037 50  0000 C CNN
+F 1 "Electrovanne3" H 6706 1037 50  0000 C CNN
 F 2 "" H 6600 950 50  0001 C CNN
 F 3 "~" H 6600 950 50  0001 C CNN
 	1    6600 950 
@@ -566,7 +566,7 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5CD49E79
 P 6650 1400
 F 0 "J?" H 6756 1578 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 6756 1487 50  0000 C CNN
+F 1 "Electrovanne4" H 6756 1487 50  0000 C CNN
 F 2 "" H 6650 1400 50  0001 C CNN
 F 3 "~" H 6650 1400 50  0001 C CNN
 	1    6650 1400
@@ -577,7 +577,7 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5CD49ED3
 P 7600 900
 F 0 "J?" H 7706 1078 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7706 987 50  0000 C CNN
+F 1 "Electrovanne2" H 7706 987 50  0000 C CNN
 F 2 "" H 7600 900 50  0001 C CNN
 F 3 "~" H 7600 900 50  0001 C CNN
 	1    7600 900 
@@ -588,7 +588,7 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5CD49F2A
 P 7600 1350
 F 0 "J?" H 7706 1528 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7706 1437 50  0000 C CNN
+F 1 "Electrovanne5" H 7706 1437 50  0000 C CNN
 F 2 "" H 7600 1350 50  0001 C CNN
 F 3 "~" H 7600 1350 50  0001 C CNN
 	1    7600 1350
@@ -599,7 +599,7 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5CD49F80
 P 8500 850
 F 0 "J?" H 8606 1028 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 8606 937 50  0000 C CNN
+F 1 "Electrovanne1" H 8606 937 50  0000 C CNN
 F 2 "" H 8500 850 50  0001 C CNN
 F 3 "~" H 8500 850 50  0001 C CNN
 	1    8500 850 
@@ -610,10 +610,48 @@ L Connector:Conn_01x02_Male J?
 U 1 1 5CD49FD3
 P 8500 1250
 F 0 "J?" H 8606 1428 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 8606 1337 50  0000 C CNN
+F 1 "Electrovanne6" H 8606 1337 50  0000 C CNN
 F 2 "" H 8500 1250 50  0001 C CNN
 F 3 "~" H 8500 1250 50  0001 C CNN
 	1    8500 1250
 	1    0    0    -1  
 $EndComp
+Text GLabel 8700 950  2    50   Input ~ 0
+Electrovanne1
+Text GLabel 7800 1000 2    50   Input ~ 0
+Electrovanne2
+Text GLabel 6800 1050 2    50   Input ~ 0
+Electrovanne3
+Text GLabel 6850 1500 2    50   Input ~ 0
+Electrovanne4
+Text GLabel 7800 1450 2    50   Input ~ 0
+Electrovanne5
+Text GLabel 8700 1350 2    50   Input ~ 0
+Electrovanne6
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5CD49D04
+P 9850 1000
+F 0 "J?" H 9956 1178 50  0000 C CNN
+F 1 "Electrovanne7" H 9956 1087 50  0000 C CNN
+F 2 "" H 9850 1000 50  0001 C CNN
+F 3 "~" H 9850 1000 50  0001 C CNN
+	1    9850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5CD49D0B
+P 9900 1450
+F 0 "J?" H 10006 1628 50  0000 C CNN
+F 1 "Electrovanne8" H 10006 1537 50  0000 C CNN
+F 2 "" H 9900 1450 50  0001 C CNN
+F 3 "~" H 9900 1450 50  0001 C CNN
+	1    9900 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 10050 1100 2    50   Input ~ 0
+Electrovanne7
+Text GLabel 10100 1550 2    50   Input ~ 0
+Electrovanne8
 $EndSCHEMATC
