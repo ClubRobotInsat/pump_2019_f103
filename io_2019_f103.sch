@@ -103,38 +103,6 @@ Wire Notes Line
 	3200 4650 3200 2700
 Text Notes 1000 2900 0    118  ~ 0
 Microcontrolleur
-$Comp
-L Connector_Generic:Conn_01x03 J6
-U 1 1 5BEDF7D1
-P 8000 1400
-F 0 "J6" H 7920 1075 50  0000 C CNN
-F 1 "Liaison serie" H 7920 1166 50  0000 C CNN
-F 2 "@Robot:HE14-3-straight" H 8000 1400 50  0001 C CNN
-F 3 "~" H 8000 1400 50  0001 C CNN
-	1    8000 1400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8200 1500 8300 1500
-Wire Wire Line
-	8200 1400 8300 1400
-Wire Wire Line
-	8200 1300 8300 1300
-$Comp
-L power:GND #PWR029
-U 1 1 5BEE094F
-P 8300 1500
-F 0 "#PWR029" H 8300 1250 50  0001 C CNN
-F 1 "GND" H 8305 1327 50  0000 C CNN
-F 2 "" H 8300 1500 50  0001 C CNN
-F 3 "" H 8300 1500 50  0001 C CNN
-	1    8300 1500
-	1    0    0    -1  
-$EndComp
-Text Label 8300 1400 0    50   ~ 0
-RX
-Text Label 8300 1300 0    50   ~ 0
-TX
 Text Notes 6450 1000 0    118  ~ 0
 Connectique
 Wire Notes Line
@@ -398,7 +366,6 @@ Wire Notes Line
 Wire Notes Line
 	3200 2700 9550 2700
 NoConn ~ 6550 1800
-NoConn ~ 8300 1400
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5C23BD88
@@ -722,7 +689,6 @@ Wire Notes Line
 	600  5200 2900 5200
 NoConn ~ 1050 5100
 NoConn ~ 2350 3400
-NoConn ~ 8300 1300
 Text Label 6550 1500 2    50   ~ 0
 MOSI
 Text Label 6550 1600 2    50   ~ 0
