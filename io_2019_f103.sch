@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 7
 Title "Carte IO/Pompes"
 Date "2019-05-11"
-Rev "v1.1"
+Rev "v1.2"
 Comp "Club Robot"
 Comment1 "Paul"
 Comment2 "Florence"
