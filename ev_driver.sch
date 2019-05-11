@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5CE4711F
+P 7850 2150
+AR Path="/5CE4711F" Ref="J?"  Part="1" 
+AR Path="/5CE44271/5CE4711F" Ref="J8"  Part="1" 
+AR Path="/5CE5A664/5CE4711F" Ref="J9"  Part="1" 
+AR Path="/5CE5AD18/5CE4711F" Ref="J10"  Part="1" 
+AR Path="/5CE5B3BC/5CE4711F" Ref="J11"  Part="1" 
+AR Path="/5CE5C0DE/5CE4711F" Ref="J12"  Part="1" 
+AR Path="/5CE5C6DA/5CE4711F" Ref="J13"  Part="1" 
+F 0 "J8" H 7930 2142 50  0000 L CNN
+F 1 "Con_EV" H 7930 2051 50  0000 L CNN
+F 2 "@Robot:HE14-2-straight" H 7850 2150 50  0001 C CNN
+F 3 "~" H 7850 2150 50  0001 C CNN
+	1    7850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CE47125
+P 7650 2250
+AR Path="/5CE47125" Ref="#PWR?"  Part="1" 
+AR Path="/5CE44271/5CE47125" Ref="#PWR034"  Part="1" 
+AR Path="/5CE5A664/5CE47125" Ref="#PWR036"  Part="1" 
+AR Path="/5CE5AD18/5CE47125" Ref="#PWR038"  Part="1" 
+AR Path="/5CE5B3BC/5CE47125" Ref="#PWR040"  Part="1" 
+AR Path="/5CE5C0DE/5CE47125" Ref="#PWR042"  Part="1" 
+AR Path="/5CE5C6DA/5CE47125" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 7650 2000 50  0001 C CNN
+F 1 "GND" V 7655 2122 50  0000 R CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5CE4712B
+P 6900 1750
+AR Path="/5CE4712B" Ref="Q?"  Part="1" 
+AR Path="/5CE44271/5CE4712B" Ref="Q5"  Part="1" 
+AR Path="/5CE5A664/5CE4712B" Ref="Q6"  Part="1" 
+AR Path="/5CE5AD18/5CE4712B" Ref="Q7"  Part="1" 
+AR Path="/5CE5B3BC/5CE4712B" Ref="Q8"  Part="1" 
+AR Path="/5CE5C0DE/5CE4712B" Ref="Q9"  Part="1" 
+AR Path="/5CE5C6DA/5CE4712B" Ref="Q10"  Part="1" 
+F 0 "Q5" H 7106 1796 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 7106 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7100 1850 50  0001 C CNN
+F 3 "~" H 6900 1750 50  0001 C CNN
+	1    6900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1950 7000 2150
+Wire Wire Line
+	7000 2150 7050 2150
+$Comp
+L power:+5V #PWR?
+U 1 1 5CE47133
+P 7000 1550
+AR Path="/5CE47133" Ref="#PWR?"  Part="1" 
+AR Path="/5CE44271/5CE47133" Ref="#PWR033"  Part="1" 
+AR Path="/5CE5A664/5CE47133" Ref="#PWR035"  Part="1" 
+AR Path="/5CE5AD18/5CE47133" Ref="#PWR037"  Part="1" 
+AR Path="/5CE5B3BC/5CE47133" Ref="#PWR039"  Part="1" 
+AR Path="/5CE5C0DE/5CE47133" Ref="#PWR041"  Part="1" 
+AR Path="/5CE5C6DA/5CE47133" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 7000 1400 50  0001 C CNN
+F 1 "+5V" H 7015 1723 50  0000 C CNN
+F 2 "" H 7000 1550 50  0001 C CNN
+F 3 "" H 7000 1550 50  0001 C CNN
+	1    7000 1550
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 1750 0    50   Input ~ 0
+driver_input
+$Comp
+L Device:R R7
+U 1 1 5CED0E88
+P 7200 2150
+AR Path="/5CE44271/5CED0E88" Ref="R7"  Part="1" 
+AR Path="/5CE5A664/5CED0E88" Ref="R8"  Part="1" 
+AR Path="/5CE5AD18/5CED0E88" Ref="R9"  Part="1" 
+AR Path="/5CE5B3BC/5CED0E88" Ref="R10"  Part="1" 
+AR Path="/5CE5C0DE/5CED0E88" Ref="R11"  Part="1" 
+AR Path="/5CE5C6DA/5CED0E88" Ref="R12"  Part="1" 
+F 0 "R7" V 6993 2150 50  0000 C CNN
+F 1 "150R" V 7084 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7130 2150 50  0001 C CNN
+F 3 "~" H 7200 2150 50  0001 C CNN
+	1    7200 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5CED121A
+P 7500 2150
+AR Path="/5CE44271/5CED121A" Ref="D5"  Part="1" 
+AR Path="/5CE5A664/5CED121A" Ref="D6"  Part="1" 
+AR Path="/5CE5AD18/5CED121A" Ref="D7"  Part="1" 
+AR Path="/5CE5B3BC/5CED121A" Ref="D8"  Part="1" 
+AR Path="/5CE5C0DE/5CED121A" Ref="D9"  Part="1" 
+AR Path="/5CE5C6DA/5CED121A" Ref="D10"  Part="1" 
+F 0 "D5" H 7493 1895 50  0000 C CNN
+F 1 "LED_VERTE" H 7493 1986 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7500 2150 50  0001 C CNN
+F 3 "~" H 7500 2150 50  0001 C CNN
+	1    7500 2150
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
