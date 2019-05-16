@@ -158,7 +158,7 @@ U 1 1 5C08F1FF
 P 1350 1850
 F 0 "J4" H 1270 1525 50  0000 C CNN
 F 1 "Alim logique" H 1270 1616 50  0000 C CNN
-F 2 "@Robot:HE14-3_horizontal" H 1350 1850 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 1350 1850 50  0001 C CNN
 F 3 "~" H 1350 1850 50  0001 C CNN
 	1    1350 1850
 	-1   0    0    1   
@@ -845,7 +845,7 @@ U 1 1 5CDF53C3
 P 1150 5500
 F 0 "J1" H 1230 5492 50  0000 L CNN
 F 1 "Con_Tirette" H 1230 5401 50  0000 L CNN
-F 2 "@Robot:HE14-2-straight" H 1150 5500 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 1150 5500 50  0001 C CNN
 F 3 "~" H 1150 5500 50  0001 C CNN
 	1    1150 5500
 	1    0    0    -1  
@@ -943,7 +943,7 @@ U 1 1 5CEABCE6
 P 1200 6100
 F 0 "J2" H 1280 6092 50  0000 L CNN
 F 1 "Conn_01x04" H 1280 6001 50  0000 L CNN
-F 2 "@Robot:HE14-4-straight" H 1200 6100 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 1200 6100 50  0001 C CNN
 F 3 "~" H 1200 6100 50  0001 C CNN
 	1    1200 6100
 	1    0    0    -1  
